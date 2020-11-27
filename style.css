@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    /* background-color:#f3f5f7; */
+}
+.title{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title h1{
+    margin: .60rem 0;
+    font-size: 2.5rem;
+}
+.underline{
+    width: 7rem;
+    height: .25rem;
+    background-color:  #0a3977cc;
+}
+.reviews{
+    /* background-color:#ffffff; */
+    width: 550px;   
+    box-shadow: 0 2px 8px#7c7b7b;
+    border-radius: 1rem;
+    text-align: center;
+}
+.img_container{
+    padding-top: 2rem;
+    margin: 1rem;
+}
+img{
+    border-radius: 50%;
+}
+#author{
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin: 0;
+}
+#job{
+    font-weight: bold;
+    color: #0a3977cc;
+    margin-top: .20rem;
+   margin-bottom: 0;
+}
+#info{
+    padding: 0 1rem;
+}
+button{
+    border: none;
+    color: #0a3977cc;
+    background-color: inherit;
+    padding: 1rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+button.randomBtn{
+    border: 2px solid #0a3977cc;
+    border-radius: .50rem;
+    font-size: .75rem;
+    font-weight: bold;
+    padding: .50rem;
+    margin: 1rem;
+}
